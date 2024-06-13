@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url('https://th.bing.com/th/id/R.98f1db12da022615ab8478647b781dd4?rik=08tRwv5ZkA8VJw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fWeather-Photo.jpg&ehk=1vnDlHWl3lYDPLqie%2b05YqPEFXsUthhc1Y%2bNoVBQ6kk%3d&risl=&pid=ImgRaw&r=0');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+    
+    background-color: transparent;
+    
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  max-width: 600px; 
+  width: 100%;
+}
+
+.weather__header form {
+  flex-grow: 1;
+}
+
+.weather__units span {
+  font-size: 1.25rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.weather__body .weather__icon img {
+  width: 120px;
+}
+
+.weather__temperature {
+  font-size: 3rem;
+}
+
+.weather__card {
+  background: #181818;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem; 
+}
+
+.weather__card i {
+  font-size: 1.5rem;
+}
+
+.weather__card div {
+  margin-left: 1rem;
+}
